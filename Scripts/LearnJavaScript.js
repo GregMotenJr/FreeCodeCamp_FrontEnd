@@ -1,4 +1,7 @@
-﻿// this is a single line comment
+﻿
+// Example
+var ourName;
 
-/* this is a
-multi line comment*/
+// Define myName below this line
+
+var myName;
