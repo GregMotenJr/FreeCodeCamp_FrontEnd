@@ -1,12 +1,10 @@
 ﻿
-function convertToF(celsius) {
-    var fahrenheit;
-    // Only change code below this line
-    fahrenheit = celsius * 9 / 5 + 32;
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
 
-    // Only change code above this line
-    return fahrenheit;
-}
+// Only change code below this line
+var myFirstName = firstName;
+var myLastName = lastName;
 
-// Change the inputs below to test your code
-convertToF(30);
+
