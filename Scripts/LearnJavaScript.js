@@ -1,7 +1,7 @@
 ﻿
 // Example
-var ourArray = ["John", 23];
+var ourArray = [["the universe", 42], ["everything", 101010]];
 
 // Only change code below this line.
-var myArray = ["Greg", 31];
+var myArray = [["trust", 44], ["loyalty", 148]];
 
