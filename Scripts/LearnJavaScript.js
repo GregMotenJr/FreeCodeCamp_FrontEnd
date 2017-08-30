@@ -1,14 +1,11 @@
 ﻿
 // Setup
-var outerWear = "T-Shirt";
-
-function myOutfit() {
-    // Only change code below this line
-    var myOutfit;
-    var outerWear = "sweater";
-
-    // Only change code above this line
-    return outerWear;
+function testEqual(val) {
+    if (val == 12) {
+        return "Equal";
+    }
+    return "Not Equal";
 }
 
-myOutfit();
+// Change this value to test
+testEqual(12);
