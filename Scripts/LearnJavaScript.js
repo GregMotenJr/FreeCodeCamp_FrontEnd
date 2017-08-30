@@ -1,11 +1,24 @@
-﻿
+
+// Example
+function ourTrueOrFalse(isItTrue) {
+  if (isItTrue) { 
+    return "Yes, it's true";
+  }
+  return "No, it's false";
+}
+
 // Setup
-function testStrict(val) {
-    if (val === 7) {
-        return "Equal";
-    }
-    return "Not Equal";
+function trueOrFalse(wasThatTrue) {
+
+  // Only change code below this line.
+  if (wasThatTrue){
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+  
+  // Only change code above this line.
+
 }
 
 // Change this value to test
-testStrict(10);
+trueOrFalse(true);
