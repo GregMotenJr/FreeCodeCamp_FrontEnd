@@ -1,14 +1,15 @@
 ﻿
-function testGreaterThan(val) {
-  if (val>100) {  
-    return "Over 100";
-  }
-  
-  if (val>10) {  
-    return "Over 10";
-  }
+function testGreaterOrEqual(val) {
+    if (val >= 20) {  // Change this line
+        return "20 or Over";
+    }
 
-  return "10 or Under";
+    if (val >= 10) {  // Change this line
+        return "10 or Over";
+    }
+
+    return "9 or Under";
 }
 
-testGreaterThan(10);
+// Change this value to test
+testGreaterOrEqual(10);
