@@ -31,5 +31,5 @@ function chainToSwitch(val) {
 }
 
 // Change this value to test
-chainToSwitch(8);
+chainToSwitch(7);
 
