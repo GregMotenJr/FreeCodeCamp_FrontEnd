@@ -1,24 +1,35 @@
 
-// Example
-function ourTrueOrFalse(isItTrue) {
-  if (isItTrue) { 
-    return "Yes, it's true";
-  }
-  return "No, it's false";
-}
-
-// Setup
-function trueOrFalse(wasThatTrue) {
-
-  // Only change code below this line.
-  if (wasThatTrue){
-    return "Yes, that was true";
-  }
-  return "No, that was false";
+function chainToSwitch(val) {
+  var answer = "";
+  // Only change code below this line
   
-  // Only change code above this line.
-
+  switch (val){
+  case "bob":
+    answer = "Marley";
+      break;
+      
+    case 42:
+    answer = "The Answer";
+      break;
+      
+    case 1:
+    answer = "There is no #1";
+      break;
+      
+    case 99:
+    answer = "Missed me by this much!";
+      break;
+      
+    case 7:
+    answer = "Ate Nine";
+  
+}
+  
+  
+  // Only change code above this line  
+  return answer;  
 }
 
 // Change this value to test
-trueOrFalse(true);
+chainToSwitch(8);
+
