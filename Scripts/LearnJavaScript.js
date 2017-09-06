@@ -1,46 +1,20 @@
 
-var count = 0;
+// Example
+var ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+};
 
-function cc(card) {
-    // Only change code below this line
-    var bet;
+// Only change code below this line.
 
-    switch (card) {
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-            count++;
-            break;
+var myDog = {
 
-        case 7:
-        case 8:
-        case 9:
-            count = count;
-            break;
-
-        case 10:
-        case 'J':
-        case 'Q':
-        case 'K':
-        case 'A':
-            count--;
-            break;
-
-    }
+    "name": "Buck",
+    "legs": 3,
+    "tails": 1,
+    "friends": ["everyone"]
 
 
-    if (count >= 1)
-        bet = " Bet";
-    if (count <= 0)
-        bet = " Hold";
-
-    return count + bet;
-
-    // Only change code above this line
-}
-
-// Add/remove calls to test your function.
-// Note: Only the last will display
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+};
